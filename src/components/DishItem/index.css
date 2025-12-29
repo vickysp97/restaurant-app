@@ -1,0 +1,73 @@
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.dish-left {
+  display: flex;
+}
+
+.veg,
+.non-veg {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.veg {
+  border: 2px solid green;
+}
+
+.non-veg {
+  border: 2px solid brown;
+}
+
+.dish-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.description {
+  color: #666;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  border-radius: 16px;
+  width: 90px;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.counter button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.not-available {
+  color: red;
+}
+
+.custom-text {
+  color: blue;
+  font-size: 14px;
+}
+
+.calories {
+  color: orange;
+}
+
+.dish-img {
+  width: 80px;
+  border-radius: 8px;
+}
