@@ -1,0 +1,9 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "16"
+  NPM_FLAGS = "--legacy-peer-deps"
+  NETLIFY_USE_PNPM = "false"
+  COREPACK_ENABLE = "0"
